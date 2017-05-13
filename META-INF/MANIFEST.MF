@@ -1,4 +1,9 @@
 Manifest-Version: 1.0
-Ant-Version: Apache Ant 1.6.5
-Created-By: 1.5.0_05-48 ("Apple Computer, Inc.")
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: jos
+Build-Jdk: 1.5.0_04
+Extension-Name: xstream
+Implementation-Title: xstream
+Implementation-Version: 1.2
 
