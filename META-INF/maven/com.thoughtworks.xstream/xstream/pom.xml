@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <!--
      Copyright (C) 2006 Joe Walnes.
-     Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015 XStream committers.
+     Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016 XStream committers.
      All rights reserved.
      
      The software in this package is published under the terms of the BSD
@@ -14,7 +14,7 @@
   <parent>
     <groupId>com.thoughtworks.xstream</groupId>
     <artifactId>xstream-parent</artifactId>
-    <version>1.4.8</version>
+    <version>1.4.9</version>
   </parent>
   <artifactId>xstream</artifactId>
   <packaging>jar</packaging>
@@ -100,6 +100,11 @@
       <groupId>org.codehaus.jettison</groupId>
       <artifactId>jettison</artifactId>
       <optional>true</optional>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.activation</groupId>
+      <artifactId>activation</artifactId>
     </dependency>
 
     <!-- test-scoped -->
@@ -310,9 +315,11 @@
               </compilerArgs>
               <excludes>
                 <exclude>**/Lambda**</exclude>
+                <exclude>**/extended/PathConverter*</exclude>
               </excludes>
               <testExcludes>
                 <exclude>**/Lambda**</exclude>
+                <exclude>**/acceptance/Extended17TypesTest*</exclude>
                 <exclude>**/extended/*17Test*</exclude>
               </testExcludes>
             </configuration>
@@ -381,6 +388,7 @@
                 <exclude>**/basic/UUID*</exclude>
                 <exclude>**/core/util/Types*</exclude>
                 <exclude>**/extended/*15*</exclude>
+                <exclude>**/extended/PathConverter*</exclude>
                 <exclude>**/io/xml/JDom2*</exclude>
               </excludes>
               <testExcludes>
@@ -393,6 +401,7 @@
                 <exclude>**/io/xml/JDom2*Test*</exclude>
                 <exclude>**/acceptance/Basic15TypesTest*</exclude>
                 <exclude>**/acceptance/Concurrent15TypesTest*</exclude>
+                <exclude>**/acceptance/Extended17TypesTest*</exclude>
               </testExcludes>
             </configuration>
           </plugin>
@@ -428,5 +437,9 @@
       </plugin>
     </plugins>
   </reporting>
+
+  <properties>
+    <bundle.export.package>!com.thoughtworks.xstream.core.util,com.thoughtworks.xstream.*;-noimport:=true</bundle.export.package>
+  </properties>
 
 </project>
