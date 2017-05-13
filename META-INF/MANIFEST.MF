@@ -2,20 +2,20 @@ Manifest-Version: 1.0
 Archiver-Version: Plexus Archiver
 Created-By: Apache Maven Bundle Plugin
 Built-By: joehni
-Build-Jdk: 1.7.0_51
+Build-Jdk: 1.8.0_31
 Specification-Title: XStream Core
 Specification-Vendor: XStream
 Implementation-Title: XStream Core
-Implementation-Version: 1.4.7
+Implementation-Version: 1.4.8
 Implementation-Vendor-Id: com.thoughtworks.xstream
 Implementation-Vendor: XStream
 Specification-Version: 1.4
 X-Build-Os: Linux
-X-Build-Time: 20140208-1150
-X-Builder: Maven 3.0.5
+X-Build-Time: 2015-02-18T19:07:02Z
+X-Builder: Maven 3.2.5
 X-Compile-Source: 1.5
 X-Compile-Target: 1.5
-Bnd-LastModified: 1391856630902
+Bnd-LastModified: 1424286471610
 Bundle-Description: XStream is a serialization library from Java objec
  ts to XML and back.
 Bundle-DocURL: http://xstream.codehaus.org
@@ -24,24 +24,24 @@ Bundle-ManifestVersion: 2
 Bundle-Name: XStream Core
 Bundle-SymbolicName: xstream
 Bundle-Vendor: XStream
-Bundle-Version: 1.4.7
-Export-Package: com.thoughtworks.xstream.io.copy;version="1.4.7",com.t
- houghtworks.xstream.io.path;version="1.4.7",com.thoughtworks.xstream.
- converters.basic;version="1.4.7",com.thoughtworks.xstream.io.xml.xppd
- om;version="1.4.7",com.thoughtworks.xstream;version="1.4.7",com.thoug
- htworks.xstream.io.json;version="1.4.7",com.thoughtworks.xstream.conv
- erters.javabean;version="1.4.7",com.thoughtworks.xstream.io;version="
- 1.4.7",com.thoughtworks.xstream.converters.extended;version="1.4.7",c
- om.thoughtworks.xstream.converters;version="1.4.7",com.thoughtworks.x
- stream.converters.reflection;version="1.4.7",com.thoughtworks.xstream
- .annotations;version="1.4.7",com.thoughtworks.xstream.io.binary;versi
- on="1.4.7",com.thoughtworks.xstream.io.xml;version="1.4.7",com.though
- tworks.xstream.mapper;version="1.4.7",com.thoughtworks.xstream.persis
- tence;version="1.4.7",com.thoughtworks.xstream.security;version="1.4.
- 7",com.thoughtworks.xstream.converters.collections;version="1.4.7",co
- m.thoughtworks.xstream.core;version="1.4.7",com.thoughtworks.xstream.
- io.naming;version="1.4.7",com.thoughtworks.xstream.converters.enums;v
- ersion="1.4.7"
+Bundle-Version: 1.4.8
+Export-Package: com.thoughtworks.xstream.io.binary;version="1.4.8",com
+ .thoughtworks.xstream.io.naming;version="1.4.8",com.thoughtworks.xstr
+ eam.converters;version="1.4.8",com.thoughtworks.xstream.converters.en
+ ums;version="1.4.8",com.thoughtworks.xstream.converters.extended;vers
+ ion="1.4.8",com.thoughtworks.xstream.persistence;version="1.4.8",com.
+ thoughtworks.xstream.io.xml;version="1.4.8",com.thoughtworks.xstream.
+ converters.basic;version="1.4.8",com.thoughtworks.xstream.converters.
+ javabean;version="1.4.8",com.thoughtworks.xstream.io;version="1.4.8",
+ com.thoughtworks.xstream.mapper;version="1.4.8",com.thoughtworks.xstr
+ eam.security;version="1.4.8",com.thoughtworks.xstream.annotations;ver
+ sion="1.4.8",com.thoughtworks.xstream.io.copy;version="1.4.8",com.tho
+ ughtworks.xstream.converters.collections;version="1.4.8",com.thoughtw
+ orks.xstream;version="1.4.8",com.thoughtworks.xstream.core;version="1
+ .4.8",com.thoughtworks.xstream.converters.reflection;version="1.4.8",
+ com.thoughtworks.xstream.io.json;version="1.4.8",com.thoughtworks.xst
+ ream.io.path;version="1.4.8",com.thoughtworks.xstream.io.xml.xppdom;v
+ ersion="1.4.8"
 Import-Package: com.bea.xml.stream;resolution:=optional,com.ctc.wstx.s
  tax;resolution:=optional,javax.security.auth,javax.swing,javax.swing.
  plaf,javax.xml.datatype,javax.xml.namespace;resolution:=optional,java
