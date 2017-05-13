@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.5.3 
+Created-By: Apache Jakarta Maven
+Built-By: walnj1
+Package: com.thoughtworks.xstream
+Build-Jdk: 1.4.1_02
+Extension-Name: xstream
+Specification-Version: 
+Specification-Vendor: ThoughtWorks, Inc
+Specification-Title: Object to serialization to XML and back again
+Implementation-Version: 0.1
+Implementation-Vendor: ThoughtWorks, Inc
+Implementation-Vendor-Id: 
+
